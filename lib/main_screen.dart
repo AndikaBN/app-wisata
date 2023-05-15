@@ -84,7 +84,7 @@ class TourismPlaceGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.all(24),
+      padding: const EdgeInsets.all(24),
       child: GridView.count(
         crossAxisCount: gridCount,
         crossAxisSpacing: 16,
